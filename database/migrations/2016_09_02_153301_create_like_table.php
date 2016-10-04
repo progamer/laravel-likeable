@@ -33,7 +33,7 @@ class CreateLikeTable extends Migration
                 'user_id',
             ], 'like_user_unique');
 
-            $table->foreign('user_id')->references('id')->on('user')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('user')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 
