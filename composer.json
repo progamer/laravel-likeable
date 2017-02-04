@@ -1,5 +1,5 @@
 {
-    "name": "cybercog/laravel-likeable",
+    "name": "cybercog/laravel-likeable-ext",
     "description": "Trait for Laravel Eloquent models to allow easy implementation of a `like` & `dislike` features.",
     "keywords": [
         "trait",
